@@ -1,0 +1,603 @@
+"Source","Target","Weight"
+"Artichoke","antioxidant",5
+"Arugula","antioxidant",2
+"Asparagus","antioxidant",4
+"Bamboo_shoots","antioxidant",2
+"Basella_(Malabar_spinach)","antioxidant",3
+"Bell_pepper","antioxidant",7
+"Bok_choy","antioxidant",4
+"Broccoli","antioxidant",3
+"Brussel_sprouts","antioxidant",5
+"Butternut_squash","antioxidant",1
+"Cabbage","antioxidant",5
+"Carrots","antioxidant",6
+"Cauliflower","antioxidant",3
+"Collard_greens","antioxidant",2
+"Cucumber","antioxidant",1
+"Eggplant","antioxidant",3
+"Endive","antioxidant",3
+"Fiddlehead_ferns","antioxidant",3
+"Green_Beans","antioxidant",3
+"Jicama_","antioxidant",1
+"Kale","antioxidant",6
+"Kohlrabi","antioxidant",4
+"Leeks","antioxidant",1
+"Lettuce","antioxidant",5
+"Lotus_root","antioxidant",2
+"Moringa_pods","antioxidant",1
+"Mustard_greens","antioxidant",1
+"Okra","antioxidant",2
+"Onion","antioxidant",4
+"Parsnips","antioxidant",2
+"Peas","antioxidant",1
+"Potato","antioxidant",3
+"Pumpkin","antioxidant",3
+"Purslane","antioxidant",1
+"Radicchio","antioxidant",2
+"Radish","antioxidant",3
+"Rhubarb","antioxidant",1
+"Shallots","antioxidant",2
+"Spinach","antioxidant",5
+"Sweet_corn","antioxidant",1
+"Sweet_potato","antioxidant",1
+"Swiss_chard","antioxidant",4
+"Tomato","antioxidant",4
+"Turnips","antioxidant",1
+"Watercress","antioxidant",4
+"Winged_Bean","antioxidant",3
+"Yams","antioxidant",3
+"Zucchini","antioxidant",2
+"Artichoke","potassium",2
+"Arugula","potassium",1
+"Asparagus","potassium",2
+"Bamboo_shoots","potassium",3
+"Basella_(Malabar_spinach)","potassium",2
+"Beets","potassium",2
+"Bell_pepper","potassium",1
+"Bitter_gourd","potassium",1
+"Bok_choy","potassium",2
+"Brussel_sprouts","potassium",3
+"Butternut_squash","potassium",1
+"Cabbage","potassium",2
+"Carrots","potassium",2
+"Cassava_","potassium",2
+"Cauliflower","potassium",2
+"Cucumber","potassium",4
+"Eggplant","potassium",2
+"Endive","potassium",2
+"Fennel","potassium",2
+"Fiddlehead_ferns","potassium",3
+"Green_Beans","potassium",2
+"Kale","potassium",2
+"Kohlrabi","potassium",2
+"Leeks","potassium",1
+"Lettuce","potassium",2
+"Lotus_root","potassium",2
+"Mustard_greens","potassium",1
+"Parsnips","potassium",2
+"Potato","potassium",1
+"Pumpkin","potassium",1
+"Purslane","potassium",1
+"Radicchio","potassium",2
+"Rhubarb","potassium",1
+"Shallots","potassium",1
+"Spinach","potassium",2
+"Sweet_potato","potassium",2
+"Swiss_chard","potassium",2
+"Tomato","potassium",3
+"Watercress","potassium",2
+"Yams","potassium",3
+"Zucchini","potassium",2
+"Artichoke","manganese",2
+"Arugula","manganese",1
+"Asparagus","manganese",2
+"Bamboo_shoots","manganese",2
+"Basella_(Malabar_spinach)","manganese",2
+"Beets","manganese",1
+"Bell_pepper","manganese",2
+"Bitter_gourd","manganese",1
+"Bok_choy","manganese",2
+"Broccoli","manganese",1
+"Brussel_sprouts","manganese",2
+"Cabbage","manganese",2
+"Carrots","manganese",2
+"Cassava_","manganese",1
+"Cauliflower","manganese",2
+"Collard_greens","manganese",1
+"Eggplant","manganese",2
+"Endive","manganese",2
+"Fennel","manganese",1
+"Fiddlehead_ferns","manganese",1
+"Green_Beans","manganese",2
+"Jicama_","manganese",1
+"Kale","manganese",2
+"Kohlrabi","manganese",2
+"Leeks","manganese",1
+"Lettuce","manganese",1
+"Lotus_root","manganese",2
+"Moringa_pods","manganese",1
+"Mustard_greens","manganese",1
+"Okra","manganese",1
+"Onion","manganese",2
+"Parsnips","manganese",1
+"Peas","manganese",1
+"Potato","manganese",1
+"Purslane","manganese",1
+"Radicchio","manganese",2
+"Spinach","manganese",2
+"Sweet_corn","manganese",1
+"Sweet_potato","manganese",1
+"Swiss_chard","manganese",2
+"Tomato","manganese",1
+"Turnips","manganese",1
+"Watercress","manganese",2
+"Winged_Bean","manganese",2
+"Yams","manganese",2
+"Zucchini","manganese",1
+"Artichoke","iron",2
+"Arugula","iron",2
+"Asparagus","iron",2
+"Bamboo_shoots","iron",2
+"Basella_(Malabar_spinach)","iron",3
+"Beets","iron",1
+"Bell_pepper","iron",1
+"Bitter_gourd","iron",1
+"Bok_choy","iron",2
+"Broccoli","iron",1
+"Brussel_sprouts","iron",2
+"Butternut_squash","iron",1
+"Cabbage","iron",2
+"Cassava_","iron",1
+"Cauliflower","iron",1
+"Collard_greens","iron",1
+"Eggplant","iron",1
+"Endive","iron",1
+"Fennel","iron",1
+"Fiddlehead_ferns","iron",1
+"Green_Beans","iron",1
+"Jicama_","iron",1
+"Kale","iron",2
+"Kohlrabi","iron",1
+"Leeks","iron",1
+"Lettuce","iron",2
+"Lotus_root","iron",2
+"Moringa_pods","iron",2
+"Mustard_greens","iron",2
+"Okra","iron",1
+"Parsnips","iron",1
+"Peas","iron",1
+"Potato","iron",1
+"Pumpkin","iron",1
+"Purslane","iron",1
+"Radicchio","iron",1
+"Radish","iron",1
+"Rhubarb","iron",1
+"Shallots","iron",1
+"Spinach","iron",2
+"Sweet_corn","iron",1
+"Sweet_potato","iron",2
+"Swiss_chard","iron",3
+"Tomato","iron",1
+"Turnips","iron",1
+"Watercress","iron",1
+"Winged_Bean","iron",1
+"Yams","iron",2
+"Zucchini","iron",1
+"Artichoke","copper",2
+"Arugula","copper",1
+"Asparagus","copper",2
+"Bamboo_shoots","copper",2
+"Basella_(Malabar_spinach)","copper",2
+"Beets","copper",1
+"Bell_pepper","copper",1
+"Brussel_sprouts","copper",1
+"Butternut_squash","copper",1
+"Carrots","copper",1
+"Cassava_","copper",1
+"Cauliflower","copper",1
+"Collard_greens","copper",1
+"Eggplant","copper",1
+"Endive","copper",1
+"Fennel","copper",1
+"Fiddlehead_ferns","copper",1
+"Jicama_","copper",1
+"Kale","copper",1
+"Kohlrabi","copper",1
+"Lettuce","copper",1
+"Lotus_root","copper",2
+"Moringa_pods","copper",1
+"Parsnips","copper",1
+"Peas","copper",1
+"Potato","copper",1
+"Pumpkin","copper",1
+"Radicchio","copper",1
+"Radish","copper",1
+"Rhubarb","copper",1
+"Shallots","copper",1
+"Spinach","copper",3
+"Sweet_corn","copper",1
+"Swiss_chard","copper",1
+"Turnips","copper",1
+"Watercress","copper",1
+"Winged_Bean","copper",1
+"Yams","copper",2
+"Artichoke","calcium",1
+"Arugula","calcium",1
+"Asparagus","calcium",1
+"Bamboo_shoots","calcium",1
+"Basella_(Malabar_spinach)","calcium",1
+"Bok_choy","calcium",1
+"Broccoli","calcium",1
+"Brussel_sprouts","calcium",1
+"Butternut_squash","calcium",1
+"Carrots","calcium",1
+"Cauliflower","calcium",1
+"Collard_greens","calcium",1
+"Fennel","calcium",1
+"Green_Beans","calcium",1
+"Kale","calcium",1
+"Kohlrabi","calcium",1
+"Leeks","calcium",1
+"Lettuce","calcium",1
+"Moringa_pods","calcium",2
+"Mustard_greens","calcium",1
+"Okra","calcium",1
+"Parsnips","calcium",1
+"Peas","calcium",1
+"Pumpkin","calcium",1
+"Purslane","calcium",1
+"Radish","calcium",1
+"Rhubarb","calcium",1
+"Shallots","calcium",1
+"Sweet_potato","calcium",1
+"Swiss_chard","calcium",1
+"Tomato","calcium",1
+"Turnips","calcium",1
+"Watercress","calcium",2
+"Winged_Bean","calcium",1
+"Yams","calcium",1
+"Artichoke","niacin",1
+"Arugula","niacin",1
+"Asparagus","niacin",1
+"Bamboo_shoots","niacin",1
+"Beets","niacin",1
+"Bell_pepper","niacin",1
+"Bitter_gourd","niacin",1
+"Broccoli","niacin",1
+"Brussel_sprouts","niacin",1
+"Butternut_squash","niacin",1
+"Cauliflower","niacin",1
+"Collard_greens","niacin",1
+"Eggplant","niacin",1
+"Endive","niacin",1
+"Fennel","niacin",1
+"Fiddlehead_ferns","niacin",1
+"Kale","niacin",1
+"Kohlrabi","niacin",1
+"Leeks","niacin",1
+"Lotus_root","niacin",1
+"Moringa_pods","niacin",1
+"Okra","niacin",1
+"Peas","niacin",1
+"Potato","niacin",1
+"Pumpkin","niacin",2
+"Purslane","niacin",1
+"Radicchio","niacin",1
+"Rhubarb","niacin",1
+"Spinach","niacin",1
+"Sweet_corn","niacin",1
+"Sweet_potato","niacin",1
+"Swiss_chard","niacin",1
+"Tomato","niacin",1
+"Watercress","niacin",1
+"Winged_Bean","niacin",1
+"Yams","niacin",1
+"Arugula","carotenes",1
+"Asparagus","carotenes",1
+"Bell_pepper","carotenes",1
+"Bok_choy","carotenes",1
+"Carrots","carotenes",2
+"Collard_greens","carotenes",1
+"Endive","carotenes",1
+"Fiddlehead_ferns","carotenes",3
+"Kohlrabi","carotenes",2
+"Leeks","carotenes",1
+"Lettuce","carotenes",3
+"Mustard_greens","carotenes",1
+"Peas","carotenes",1
+"Potato","carotenes",1
+"Pumpkin","carotenes",2
+"Swiss_chard","carotenes",1
+"Yams","carotenes",1
+"Zucchini","carotenes",1
+"Artichoke","carotenoid",2
+"Asparagus","carotenoid",2
+"Basella_(Malabar_spinach)","carotenoid",3
+"Bell_pepper","carotenoid",2
+"Bitter_gourd","carotenoid",2
+"Bok_choy","carotenoid",2
+"Broccoli","carotenoid",3
+"Brussel_sprouts","carotenoid",4
+"Butternut_squash","carotenoid",1
+"Cabbage","carotenoid",2
+"Collard_greens","carotenoid",3
+"Cucumber","carotenoid",2
+"Green_Beans","carotenoid",4
+"Kale","carotenoid",4
+"Leeks","carotenoid",1
+"Lettuce","carotenoid",2
+"Mustard_greens","carotenoid",2
+"Okra","carotenoid",1
+"Peas","carotenoid",2
+"Pumpkin","carotenoid",3
+"Radicchio","carotenoid",5
+"Radish","carotenoid",2
+"Rhubarb","carotenoid",1
+"Spinach","carotenoid",4
+"Sweet_corn","carotenoid",1
+"Swiss_chard","carotenoid",2
+"Tomato","carotenoid",3
+"Turnips","carotenoid",2
+"Watercress","carotenoid",2
+"Zucchini","carotenoid",2
+"Artichoke","flavonoid",1
+"Arugula","flavonoid",1
+"Asparagus","flavonoid",1
+"Beets","flavonoid",1
+"Bok_choy","flavonoid",1
+"Brussel_sprouts","flavonoid",1
+"Butternut_squash","flavonoid",1
+"Carrots","flavonoid",1
+"Eggplant","flavonoid",1
+"Fennel","flavonoid",1
+"Fiddlehead_ferns","flavonoid",2
+"Green_Beans","flavonoid",1
+"Leeks","flavonoid",2
+"Okra","flavonoid",1
+"Onion","flavonoid",1
+"Potato","flavonoid",1
+"Pumpkin","flavonoid",1
+"Radicchio","flavonoid",2
+"Radish","flavonoid",1
+"Rhubarb","flavonoid",1
+"Shallots","flavonoid",1
+"Spinach","flavonoid",1
+"Sweet_corn","flavonoid",2
+"Sweet_potato","flavonoid",1
+"Tomato","flavonoid",3
+"Zucchini","flavonoid",1
+"Artichoke","sodium",1
+"Asparagus","sodium",1
+"Bamboo_shoots","sodium",1
+"Beets","sodium",1
+"Brussel_sprouts","sodium",2
+"Carrots","sodium",1
+"Cauliflower","sodium",1
+"Cucumber","sodium",3
+"Eggplant","sodium",1
+"Endive","sodium",1
+"Fennel","sodium",1
+"Fiddlehead_ferns","sodium",1
+"Kale","sodium",2
+"Kohlrabi","sodium",1
+"Lotus_root","sodium",3
+"Parsnips","sodium",1
+"Radicchio","sodium",1
+"Sweet_potato","sodium",1
+"Swiss_chard","sodium",2
+"Tomato","sodium",2
+"Watercress","sodium",1
+"Yams","sodium",1
+"Zucchini","sodium",1
+"Basella_(Malabar_spinach)","magnesium",1
+"Beets","magnesium",1
+"Bell_pepper","magnesium",1
+"Bitter_gourd","magnesium",1
+"Bok_choy","magnesium",1
+"Broccoli","magnesium",1
+"Cabbage","magnesium",1
+"Cassava_","magnesium",1
+"Fennel","magnesium",1
+"Green_Beans","magnesium",1
+"Jicama_","magnesium",1
+"Leeks","magnesium",1
+"Lettuce","magnesium",1
+"Lotus_root","magnesium",1
+"Moringa_pods","magnesium",1
+"Mustard_greens","magnesium",1
+"Okra","magnesium",1
+"Potato","magnesium",1
+"Purslane","magnesium",1
+"Radish","magnesium",1
+"Spinach","magnesium",1
+"Sweet_corn","magnesium",1
+"Sweet_potato","magnesium",1
+"Watercress","magnesium",1
+"Winged_Bean","magnesium",1
+"Artichoke","vitamin c",2
+"Arugula","vitamin c",2
+"Asparagus","vitamin c",1
+"Basella_(Malabar_spinach)","vitamin c",3
+"Beets","vitamin c",2
+"Bell_pepper","vitamin c",3
+"Bitter_gourd","vitamin c",2
+"Bok_choy","vitamin c",3
+"Broccoli","vitamin c",2
+"Brussel_sprouts","vitamin c",1
+"Cabbage","vitamin c",2
+"Carrots","vitamin c",2
+"Cauliflower","vitamin c",2
+"Collard_greens","vitamin c",2
+"Cucumber","vitamin c",1
+"Fennel","vitamin c",3
+"Fiddlehead_ferns","vitamin c",2
+"Green_Beans","vitamin c",2
+"Jicama_","vitamin c",3
+"Kale","vitamin c",2
+"Kohlrabi","vitamin c",2
+"Leeks","vitamin c",2
+"Lettuce","vitamin c",3
+"Lotus_root","vitamin c",3
+"Moringa_pods","vitamin c",3
+"Mustard_greens","vitamin c",2
+"Okra","vitamin c",2
+"Onion","vitamin c",1
+"Parsnips","vitamin c",2
+"Peas","vitamin c",3
+"Potato","vitamin c",2
+"Pumpkin","vitamin c",1
+"Purslane","vitamin c",1
+"Radish","vitamin c",3
+"Shallots","vitamin c",1
+"Spinach","vitamin c",3
+"Sweet_potato","vitamin c",1
+"Swiss_chard","vitamin c",3
+"Tomato","vitamin c",2
+"Turnips","vitamin c",4
+"Watercress","vitamin c",4
+"Winged_Bean","vitamin c",5
+"Yams","vitamin c",2
+"Zucchini","vitamin c",1
+"Artichoke","vitamin b",6
+"Arugula","vitamin b",6
+"Asparagus","vitamin b",8
+"Bamboo_shoots","vitamin b",4
+"Basella_(Malabar_spinach)","vitamin b",3
+"Beets","vitamin b",4
+"Bell_pepper","vitamin b",5
+"Bitter_gourd","vitamin b",6
+"Bok_choy","vitamin b",7
+"Broccoli","vitamin b",4
+"Brussel_sprouts","vitamin b",3
+"Butternut_squash","vitamin b",5
+"Cabbage","vitamin b",5
+"Carrots","vitamin b",4
+"Cassava_","vitamin b",5
+"Cauliflower","vitamin b",6
+"Collard_greens","vitamin b",7
+"Eggplant","vitamin b",5
+"Endive","vitamin b",6
+"Fennel","vitamin b",7
+"Fiddlehead_ferns","vitamin b",2
+"Green_Beans","vitamin b",6
+"Jicama_","vitamin b",4
+"Kale","vitamin b",3
+"Kohlrabi","vitamin b",3
+"Leeks","vitamin b",6
+"Lettuce","vitamin b",5
+"Lotus_root","vitamin b",8
+"Moringa_pods","vitamin b",5
+"Mustard_greens","vitamin b",2
+"Okra","vitamin b",5
+"Onion","vitamin b",5
+"Parsnips","vitamin b",4
+"Peas","vitamin b",6
+"Potato","vitamin b",4
+"Pumpkin","vitamin b",4
+"Purslane","vitamin b",2
+"Radicchio","vitamin b",6
+"Radish","vitamin b",4
+"Rhubarb","vitamin b",5
+"Shallots","vitamin b",4
+"Spinach","vitamin b",6
+"Sweet_corn","vitamin b",4
+"Sweet_potato","vitamin b",7
+"Swiss_chard","vitamin b",4
+"Tomato","vitamin b",3
+"Turnips","vitamin b",4
+"Watercress","vitamin b",4
+"Winged_Bean","vitamin b",7
+"Yams","vitamin b",6
+"Zucchini","vitamin b",5
+"Artichoke","dietary fiber",1
+"Asparagus","dietary fiber",1
+"Bamboo_shoots","dietary fiber",2
+"Bitter_gourd","dietary fiber",1
+"Bok_choy","dietary fiber",1
+"Broccoli","dietary fiber",1
+"Brussel_sprouts","dietary fiber",1
+"Butternut_squash","dietary fiber",2
+"Carrots","dietary fiber",1
+"Cauliflower","dietary fiber",1
+"Collard_greens","dietary fiber",1
+"Cucumber","dietary fiber",1
+"Green_Beans","dietary fiber",1
+"Jicama_","dietary fiber",3
+"Kohlrabi","dietary fiber",1
+"Lotus_root","dietary fiber",1
+"Okra","dietary fiber",1
+"Onion","dietary fiber",1
+"Parsnips","dietary fiber",1
+"Potato","dietary fiber",2
+"Pumpkin","dietary fiber",2
+"Purslane","dietary fiber",1
+"Radish","dietary fiber",1
+"Rhubarb","dietary fiber",1
+"Spinach","dietary fiber",1
+"Sweet_corn","dietary fiber",1
+"Sweet_potato","dietary fiber",1
+"Tomato","dietary fiber",1
+"Turnips","dietary fiber",1
+"Yams","dietary fiber",2
+"Zucchini","dietary fiber",1
+"Artichoke","pantothenic acid",1
+"Arugula","pantothenic acid",1
+"Asparagus","pantothenic acid",1
+"Bamboo_shoots","pantothenic acid",1
+"Beets","pantothenic acid",1
+"Bitter_gourd","pantothenic acid",1
+"Bok_choy","pantothenic acid",1
+"Broccoli","pantothenic acid",1
+"Brussel_sprouts","pantothenic acid",1
+"Butternut_squash","pantothenic acid",1
+"Cabbage","pantothenic acid",1
+"Carrots","pantothenic acid",1
+"Cassava_","pantothenic acid",1
+"Cauliflower","pantothenic acid",1
+"Collard_greens","pantothenic acid",1
+"Eggplant","pantothenic acid",1
+"Endive","pantothenic acid",1
+"Fennel","pantothenic acid",1
+"Jicama_","pantothenic acid",1
+"Kale","pantothenic acid",1
+"Kohlrabi","pantothenic acid",1
+"Lotus_root","pantothenic acid",1
+"Moringa_pods","pantothenic acid",1
+"Okra","pantothenic acid",1
+"Onion","pantothenic acid",1
+"Parsnips","pantothenic acid",1
+"Peas","pantothenic acid",1
+"Potato","pantothenic acid",1
+"Pumpkin","pantothenic acid",1
+"Radicchio","pantothenic acid",1
+"Rhubarb","pantothenic acid",1
+"Sweet_corn","pantothenic acid",1
+"Sweet_potato","pantothenic acid",1
+"Swiss_chard","pantothenic acid",1
+"Turnips","pantothenic acid",1
+"Watercress","pantothenic acid",1
+"Yams","pantothenic acid",1
+"Artichoke","vitamin k",2
+"Arugula","vitamin k",1
+"Asparagus","vitamin k",2
+"Bok_choy","vitamin k",2
+"Brussel_sprouts","vitamin k",1
+"Cabbage","vitamin k",2
+"Cassava_","vitamin k",1
+"Cauliflower","vitamin k",1
+"Collard_greens","vitamin k",1
+"Cucumber","vitamin k",1
+"Kale","vitamin k",1
+"Kohlrabi","vitamin k",1
+"Lettuce","vitamin k",2
+"Mustard_greens","vitamin k",3
+"Okra","vitamin k",2
+"Parsnips","vitamin k",1
+"Peas","vitamin k",3
+"Radicchio","vitamin k",2
+"Rhubarb","vitamin k",1
+"Spinach","vitamin k",2
+"Sweet_potato","vitamin k",1
+"Swiss_chard","vitamin k",1
+"Turnips","vitamin k",1
+"Watercress","vitamin k",1

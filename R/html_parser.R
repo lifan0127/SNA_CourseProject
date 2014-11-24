@@ -27,6 +27,9 @@ vegetables <- html %>%
     return(data_frame(Name=name, Link=link, Image=image))
   }) %>% rbind_all()
 
+vegetables$img <- paste0("![", vegetables$Name, "](image/", vegetables$Name, ".gif)")
+vegetables$src <- paste0("image/", vegetables$Name, ".gif")
+
 save(vegetables, file="data/vegetables.RData")
 
 
@@ -47,4 +50,14 @@ apply(vegetables, 1, function(x){
   writeLines(txt, fileConn)
   close(fileConn)
 })
+
+# Manual correction for "beets"
+txt <- xpathSApply(htmlParse(vegetables[6, ][["Link"]]),
+                   "//h3[contains(., 'Health')]/following::ul[position()<3]/li",
+                   xmlValue) %>% 
+  str_replace_all("\r\n", " ") %>%
+  str_trim()
+fileConn <- file(paste0("text/", vegetables[6, ][["Name"]], ".txt"))
+writeLines(txt, fileConn)
+close(fileConn)
 

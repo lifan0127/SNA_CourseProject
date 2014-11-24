@@ -1,0 +1,16 @@
+{
+    "contents" : "# Coursera SNA optional Programming Assignment 3 template\n\n# see this blog post for a nice overview of community detection algorithms\n# http://www.r-bloggers.com/summary-of-community-detection-algorithms-in-igraph-0-6/\n\n# load the igraph library\n# you may have to install this module if you haven't already\nlibrary(igraph)\n\n# read in the graph in GML format\n# it is a sampled collection of pages from a strange set of seed categories:\n# Math, Sociology, and Chemistry\n# Change this to be your local file location\n#  if you are using Windows, replace the \\ in the path with a double \\, e.g.\n# g = read.graph(\"C:\\\\Users\\\\rool\\\\Documents\\\\My Dropbox\\\\Education\\\\Social Network Analysis\\\\Week 3\\\\wikipedia.gml\",format=\"gml\")\n\ng = read.graph(\"wikipedia.gml\",format=\"gml\")\n\n# obtain summary information about the graph\nsummary(g)\n\n\n# Question 1\n# find the largest clique using cliques(), also making sure the graph is treated as undirected\nlargest <- largest.cliques(as.undirected(g))\nsummary(largest)  # 22\n\n\n# Question 2\n# find the maximal k-core any vertex belongs to\ngraph.coreness(as.undirected(g))\nsummary(graph.coreness(as.undirected(g)))  # 21\n\n\n# Question 3\n# fastgreedy community finding algorithm\nfc = fastgreedy.community(as.undirected(g))\n\n# community sizes\nsizes(fc)\nsum(sort(sizes(fc), decreasing=TRUE)[1:4])/sum(sizes(fc))  # 69.6%\n\n# membership in 30th community\nV(g)$label[membership(fc)==30]\n\n\n# Question 4\n# InfoMap community finding algorithm (can be slow)\nimc = infomap.community(g)\nhist(sizes(fc), breaks=10)\nhist(sizes(imc), breaks=10)\n\n# find the nodes in the largest clique\nV(g)$label[largest.cliques(as.undirected(g))[[1]]]\n\n\n# Question 5 \n# use modularity() to find the modularity of any given partition\nmodularity(fc)  # 0.7452734\nmodularity(imc)  # 0.6198652\n\n\n\n\n\n\n\n",
+    "created" : 1416828818420.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2653338943",
+    "id" : "A4D9D4A1",
+    "lastKnownWriteTime" : 1414962739,
+    "path" : "D:/Fan Li/My Courses/Social Network Analysis (2014) - Lada Adamic (UMichigan)/Week 4/OPA3communityAssignment.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
