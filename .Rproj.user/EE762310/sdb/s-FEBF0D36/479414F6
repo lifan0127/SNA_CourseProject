@@ -1,0 +1,17 @@
+{
+    "contents" : "---\ntitle: \"SNA Project: Vegetables and Health Benefits Network\"\noutput: pdf_document\n---\n\nIn this project, I chose to analyze the the correlation between various vegetables and health benefits. [http://www.nutrition-and-you.com](http://www.nutrition-and-you.com/) provides a list of vegetables and descriptions of their health benefits. In this project, we use the information and network analysis to analyze the correlation between vegetables and corresponding health benefits. The basic workflow is as follows:\n\n1. Parse the informatin from the website.\n2. Use text mining to extract the key benefit claims.\n3. Perform network analysis on the vegetables and their corresponding benefits.\n\n\n\n```{r preparation, message=FALSE, warning=FALSE}\nlibrary(tm)\nlibrary(RWeka)\nlibrary(ggplot2)\nlibrary(gridExtra)\nlibrary(dplyr)  # version 0.3 required\n```\n\n\n### Parse the informatin from the website\n\nThe data was parsed from the website using a script. The script can be found in the [Github reposity]() associated with this project.\n\n\n\n\n\n",
+    "created" : 1416800859262.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "60357418",
+    "id" : "479414F6",
+    "lastKnownWriteTime" : 1416802198,
+    "path" : "~/GitHub/SNA_CourseProject/SNA_Project.Rmd",
+    "project_path" : "SNA_Project.Rmd",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_markdown"
+}

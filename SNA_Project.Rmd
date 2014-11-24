@@ -1,0 +1,30 @@
+---
+title: "SNA Project: Vegetables and Health Benefits Network"
+output: pdf_document
+---
+
+In this project, I chose to analyze the the correlation between various vegetables and health benefits. [http://www.nutrition-and-you.com](http://www.nutrition-and-you.com/) provides a list of vegetables and descriptions of their health benefits. In this project, we use the information and network analysis to analyze the correlation between vegetables and corresponding health benefits. The basic workflow is as follows:
+
+1. Parse the informatin from the website.
+2. Use text mining to extract the key benefit claims.
+3. Perform network analysis on the vegetables and their corresponding benefits.
+
+
+
+```{r preparation, message=FALSE, warning=FALSE}
+library(tm)
+library(RWeka)
+library(ggplot2)
+library(gridExtra)
+library(dplyr)  # version 0.3 required
+```
+
+
+### Parse the informatin from the website
+
+The data was parsed from the 
+
+
+
+
+
