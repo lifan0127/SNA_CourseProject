@@ -1,28 +1,103 @@
 ---
-title: "SNA Project: Vegetables and Health Benefits Network"
-output: pdf_document
+title: 'SNA Project: Vegetables and Health Benefits Network'
+output: word_document
 ---
 
-In this project, I chose to analyze the the correlation between various vegetables and health benefits. [http://www.nutrition-and-you.com](http://www.nutrition-and-you.com/) provides a list of vegetables and descriptions of their health benefits. In this project, we use the information and network analysis to analyze the correlation between vegetables and corresponding health benefits. The basic workflow is as follows:
+In this project, I chose to analyze the the correlation between various vegetables and health benefits. [http://www.nutrition-and-you.com](http://www.nutrition-and-you.com/vegetable-nutrition.html) provides a list of vegetables and descriptions of their health benefits. In this project, we use the information and network analysis to analyze the correlation between vegetables and corresponding health benefits. The basic workflow is as follows:
 
 1. Parse the informatin from the website.
 2. Use text mining to extract the key benefit claims.
 3. Perform network analysis on the vegetables and their corresponding benefits.
 
-
+This report is composed using [RMarkdown](http://rmarkdown.rstudio.com/). All the R/RMD codes and dataset for this SNA project can be found on Github: [https://github.com/lifan0127/SNA_CourseProject](https://github.com/lifan0127/SNA_CourseProject).
 
 ```{r preparation, message=FALSE, warning=FALSE}
 library(tm)
+library(knitr)
+library(stringr)
 library(RWeka)
 library(ggplot2)
 library(gridExtra)
 library(dplyr)  # version 0.3 required
+
+# Load "vegetables" data frame from vegetable.RData
+load("data/vegetables.RData")
+
 ```
 
 
 ### Parse the informatin from the website
 
-The data was parsed from the 
+The data was parsed from the website using the RCurl and XML packages. The script can be found in the [Github reposity](https://github.com/lifan0127/SNA_CourseProject) associated with this project. The basic steps includes:
+
+1. Parse vegetable names, images and links from [http://www.nutrition-and-you.com/vegetable-nutrition.html](http://www.nutrition-and-you.com/vegetable-nutrition.html).
+2. Following the links, parse the health benefits for each vegetable.
+3. Manual check to confirm consistency.
+
+A sample of the data (first 5 vegetables) is shown below:
+
+```{r results='asis'}
+a <- data_frame(Image=paste0("![", vegetables$Name, "](image/", vegetables$Name, ".gif)"), Name=str_replace_all(vegetables$Name, "_", " "), Link=vegetables$Link)
+
+kable(a[1:5, ])
+
+```
+
+As an example, below is an excerpt of the textual description of health benefit related to Asparagus.
+
+
+
+### Data preprocessing
+
+The first task is to determine the most important health claims. We use term frequency as the measure. First, we computed the frequency distribution of term, 2-gram, 3-gram and 4-grams. 
+
+```{r data_preprocessing}
+corpus.preprocess <- function(corpus){
+  # Helper function to preprocess corpus
+  processed.corpus <- corpus %>%
+    tm_map(content_transformer(tolower)) %>%
+    tm_map(removeNumbers) %>%
+    tm_map(removePunctuation) %>%
+    tm_map(removeWords, stopwords("english")) %>%
+    tm_map(stripWhitespace)
+  return(processed.corpus)
+}
+
+corpus <- VCorpus(DirSource("text")) %>% corpus.preprocess()
+
+dtm <- DocumentTermMatrix(corpus) 
+
+BigramTokenizer <- function(x) NGramTokenizer(x, Weka_control(min = 2, max = 2))
+dtm.2g <- DocumentTermMatrix(corpus, control=list(tokenize = BigramTokenizer))
+
+TrigramTokenizer <- function(x) NGramTokenizer(x, Weka_control(min = 3, max = 3))
+dtm.3g <- DocumentTermMatrix(corpus, control=list(tokenize = TrigramTokenizer)) 
+
+```
+
+```{r term_frequency}
+# Helper function to find the most frequent n words
+most.freq <- function(dtm, n=10){
+  freq <- colSums(as.matrix(dtm))
+  result <- freq[order(freq, decreasing=TRUE)][1:n]
+  return(data_frame(term=names(result), count=result))
+}
+
+ggplot(most.freq(dtm), aes(x=reorder(term, -count), y=count)) +
+  geom_bar(stat="identity") +
+  theme_bw() +
+  theme(axis.title.x = element_blank()) +
+  ggtitle("Most frequent words in health benefits")
+
+```
+
+Then, we manually examined the terms and found the most frequent heal-related terms from the frequncy distribution data.
+
+
+Finally, we performed some manual clean-up. For example, "reduce "
+
+
+
 
 
 

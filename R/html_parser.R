@@ -17,7 +17,7 @@ vegetables <- html %>%
   lapply(function(x){
     while("text" %in% names(x)) 
       x$text <- NULL  # Remove extra "text" nodes
-    name <- xmlValue(x[[2]]) %>% str_replace_all("\r\n|\\s+", " ")
+    name <- xmlValue(x[[2]]) %>% str_replace_all("\r\n|\\s+", "_")
     link <- xmlGetAttr(x[[2]], "href")
     if(is.null(link))
       link <- xmlGetAttr(xmlChildren(x[[2]])[[1]], "href")
@@ -26,6 +26,8 @@ vegetables <- html %>%
       image <- xmlGetAttr(xmlChildren(x[[1]])[[1]], "src")
     return(data_frame(Name=name, Link=link, Image=image))
   }) %>% rbind_all()
+
+save(vegetables, file="data/vegetables.RData")
 
 
 # Parse vegetable images
